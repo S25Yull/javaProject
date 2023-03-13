@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author necke
+ *
+ */
+module hello {
+}
