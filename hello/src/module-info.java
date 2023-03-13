@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author necke
- *
- */
-module hello {
-}
