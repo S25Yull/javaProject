@@ -1,0 +1,28 @@
+
+public class Ex7_12 {
+
+	class InstanceInner{
+		int iv = 100;
+		final static int CONST = 100;//가능
+	}
+	
+	static class StaticInner{
+		int iv = 200;
+		static int cv = 200;//가능
+	}
+	
+	void myMethod() {
+		class LocalInner{
+			int iv = 300;
+			final static int CONST = 300;//불가능
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(InstanceInner.CONST);
+		System.out.println(StaticInner.cv);
+	}
+
+}
